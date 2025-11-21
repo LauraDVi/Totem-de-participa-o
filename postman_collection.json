@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "FIWARE Totem ESP32 Collection",
+    "_postman_id": "fiware-totem-esp32-collection",
+    "description": "Postman collection para integra\u00e7\u00e3o ESP32 + MQTT + FIWARE.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Provisionar Dispositivo",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Fiware-Service",
+            "value": "openiot"
+          },
+          {
+            "key": "Fiware-ServicePath",
+            "value": "/"
+          }
+        ],
+        "url": {
+          "raw": "http://135.232.96.84:4041/iot/devices",
+          "protocol": "http",
+          "host": [
+            "135",
+            "232",
+            "96",
+            "84"
+          ],
+          "port": "4041",
+          "path": [
+            "iot",
+            "devices"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"devices\": [\n    {\n      \"device_id\": \"esp32_totem_01\",\n      \"entity_name\": \"urn:ngsi-ld:Totem:esp32_totem_01\",\n      \"entity_type\": \"Totem\",\n      \"protocol\": \"PDI-IoTA-UltraLight\",\n      \"transport\": \"MQTT\",\n      \"attributes\": [\n        {\n          \"object_id\": \"d\",\n          \"name\": \"distance\",\n          \"type\": \"Number\"\n        },\n        {\n          \"object_id\": \"n\",\n          \"name\": \"student_near\",\n          \"type\": \"Boolean\"\n        },\n        {\n          \"object_id\": \"s\",\n          \"name\": \"step_count\",\n          \"type\": \"Number\"\n        },\n        {\n          \"object_id\": \"p\",\n          \"name\": \"presence\",\n          \"type\": \"Boolean\"\n        }\n      ]\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "Consultar Entidade no Orion",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Fiware-Service",
+            "value": "openiot"
+          },
+          {
+            "key": "Fiware-ServicePath",
+            "value": "/"
+          }
+        ],
+        "url": {
+          "raw": "http://135.232.96.84:1026/v2/entities/urn:ngsi-ld:Totem:esp32_totem_01",
+          "protocol": "http",
+          "host": [
+            "135",
+            "232",
+            "96",
+            "84"
+          ],
+          "port": "1026",
+          "path": [
+            "v2",
+            "entities",
+            "urn:ngsi-ld:Totem:esp32_totem_01"
+          ]
+        }
+      }
+    }
+  ]
+}
