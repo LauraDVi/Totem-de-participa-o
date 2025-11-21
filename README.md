@@ -97,7 +97,7 @@ O código compreto está na pasta /wokwi, mas o fluxo é:
 - Repete a cada 2 segundos.
 ---
 ## Demonstração em vídeo
-
+Link: https://youtu.be/csyDHP6_fmU
 ---
 
 ## Como executar o projeto
