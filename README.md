@@ -105,7 +105,8 @@ Importar a collection 'postman_collection.json', incluída no repositório.
 ### 3. Rodar a simulação Wokwi
 Link para simulação: 
 #### Arquitetura do ESP32
-<img width="515" height="541" alt="image" src="https://github.com/user-attachments/assets/2864cf3e-e8fb-4373-a043-a38e880f151f" />
+<img width="547" height="438" alt="image" src="https://github.com/user-attachments/assets/4a9c894f-eedd-43fe-a075-331a56e58749" />
+
 
 ### 4. Validar dados no Fiware
 > curl http://localhost:1026/v2/entities/urn:ngsi-ld:Totem:esp32_totem_01
@@ -113,7 +114,7 @@ Link para simulação:
 ---
 
 ## Conclusão
-O Totem demosntra como IoT, Fiware e sensores podem criar um ambiente educacional conectado, com dados reais, insights e melhorias contínuas.
+O desenvolvimento deste projeto permitiu demonstrar, de forma prática e aplicada, como soluções IoT podem contribuir diretamente para a evolução do ambiente educacional e profissional diante dos desafios da transformação digital. A integração entre ESP32, sensores físicos, comunicação MQTT e a plataforma FIWARE mostrou-se eficiente para coletar, transmitir e contextualizar informações relevantes em tempo real, reforçando o potencial dessas tecnologias na construção de sistemas inteligentes voltados ao aprendizado contínuo, à automação e à melhoria da experiência do usuário. Além disso, o projeto ilustra claramente como iniciativas de baixo custo e alta escalabilidade podem ser aplicadas para atender a objetivos como os ODS 4, 8 e 9, promovendo inovação, acesso a ferramentas tecnológicas e criação de ambientes mais dinâmicos e inclusivos. Em suma, o trabalho evidencia não apenas a importância do uso de tecnologias emergentes, mas também a necessidade de preparar pessoas e organizações para um futuro cada vez mais orientado por dados, conectividade e integração digital.
 
 
 
