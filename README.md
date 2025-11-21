@@ -1,5 +1,12 @@
 # Totem de monitoramento de participação e engajamento 
 
+Equipe:
+  Laura Dantas - 564064;
+  Raphael Aaron - 564067;
+  Felipe Catto - 562106.
+
+--- 
+
 ## Visão geral 
 O totem inteligente para monitoramente de participação em empresas ou universidades utiliza: ESP32, sensores IoT e integração via MQTT com o Fiware Irion Context Broker, criando, assim, uma solução inovadora que tem como principais objetivos:
 - Monitorar presenças próximas ao totem;
@@ -103,7 +110,7 @@ docker compose up
 Importar a collection 'postman_collection.json', incluída no repositório.
 
 ### 3. Rodar a simulação Wokwi
-Link para simulação: 
+Link para simulação: https://wokwi.com/projects/448010101354763265
 #### Arquitetura do ESP32
 <img width="547" height="438" alt="image" src="https://github.com/user-attachments/assets/4a9c894f-eedd-43fe-a075-331a56e58749" />
 
@@ -112,10 +119,7 @@ Link para simulação:
 > curl http://localhost:1026/v2/entities/urn:ngsi-ld:Totem:esp32_totem_01
 
 ---
-
 ## Conclusão
-O desenvolvimento deste projeto permitiu demonstrar, de forma prática e aplicada, como soluções IoT podem contribuir diretamente para a evolução do ambiente educacional e profissional diante dos desafios da transformação digital. A integração entre ESP32, sensores físicos, comunicação MQTT e a plataforma FIWARE mostrou-se eficiente para coletar, transmitir e contextualizar informações relevantes em tempo real, reforçando o potencial dessas tecnologias na construção de sistemas inteligentes voltados ao aprendizado contínuo, à automação e à melhoria da experiência do usuário. Além disso, o projeto ilustra claramente como iniciativas de baixo custo e alta escalabilidade podem ser aplicadas para atender a objetivos como os ODS 4, 8 e 9, promovendo inovação, acesso a ferramentas tecnológicas e criação de ambientes mais dinâmicos e inclusivos. Em suma, o trabalho evidencia não apenas a importância do uso de tecnologias emergentes, mas também a necessidade de preparar pessoas e organizações para um futuro cada vez mais orientado por dados, conectividade e integração digital.
-
-
-
-
+  O desenvolvimento do projeto pôde demonstrar como soluções IoT podem contribuir diretamente para a evolução do ambiente educacional e profissional diante dos desafios da transformação digital. A integração entre ESP32, sensores sísicos, comunicação MQTT e a plataforma Fiware mostrou grande eficiência na coleta, transmissão e contextualização das informações relevantes em tempo real, reforçando o potencial dessas tecnologias na construção de sistemas inteligentes voltados ao aprendizado contínuo, à automação e à melhoria da experiência do usuário.
+  Além disso, o projeto ilustra como iniciativas de baixo custo e alta estabilidade podem ser aplicadas para atender a aobjetivos como as ODSs 4, 8 e 9, promovendo inovação, acesso a ferramentas tecnológicas e criação de ambientes mais dinâmicos e inclusivos.
+  O trabalho, portanto, evidencia não apenas a importância do uso de tecnologias emergentes, mas a necesidae de preparar indivíduos e organizações para um futuro cada vez mais orientado por dados, conectividade e integração digital.
